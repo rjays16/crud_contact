@@ -11,7 +11,7 @@
 
                 <div class="card">
                     <div class="card-header">
-                        <h4>Laravel Crud</h4>
+                        <center><h4>Laravel Crud using B/ootstrap Modal</h4></center>
                         <hr>
                         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#customerModal">
                                 Add New Customer
