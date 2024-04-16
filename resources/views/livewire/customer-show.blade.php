@@ -41,7 +41,8 @@
                                             <button type="button" data-bs-toggle="modal" data-bs-target="#updateCustomerModal" wire:click="editCustomer({{$customer->id}})" class="btn btn-primary">
                                                 Edit
                                             </button>
-                                            <button type="button" data-bs-toggle="modal" data-bs-target="#deleteCustomerModal" wire:click="deleteCustomer({{$customer->id}})" class="btn btn-danger">Delete</button>
+                                            <button type="button" data-bs-toggle="modal" data-bs-target="#deleteCustomerModal" wire:click="deleteCustomer({{$customer->id}})" class="btn btn-danger">
+                                                Delete</button>
                                         </td>
                                     </tr>
                                 @empty
